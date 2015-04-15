@@ -1,0 +1,16 @@
+---
+driver:
+  name: vagrant
+  box: win2012
+
+provisioner:
+  name: chef_zero
+
+platforms:
+  - name: win2012
+
+suites:
+  - name: default
+    run_list:
+      - recipe[mssql-demo::default]
+    attributes:
