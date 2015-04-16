@@ -1,4 +1,4 @@
-describe 'iis::default'  {
+describe 'mssql-demo::webserver'  {
     It "Should have the Web Server Role" { 
       (Get-WindowsFeature -name Web-Server).Installed | Should Be $true # Probably not the right service name but it's okay for now.
     }
