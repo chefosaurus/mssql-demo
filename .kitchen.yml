@@ -9,6 +9,9 @@ provisioner:
 platforms:
   - name: win2012
 
+verifier:
+  name: pester
+
 suites:
   - name: default
     run_list:
