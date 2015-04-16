@@ -1,0 +1,20 @@
+LineLength:
+  Enabled: false
+StringLiterals:
+  Enabled: false
+HashSyntax:
+  Enabled: false
+SpaceInsideParens:
+  Enabled: false
+SpaceInsideBrackets:
+  Enabled: false
+SpaceInsideHashLiteralBraces:
+  Enabled: false
+SingleSpaceBeforeFirstArg:
+  Enabled: false
+Encoding:
+  Enabled: false
+LeadingCommentSpace:
+  Enabled: false
+AsciiComments:
+  Enabled: false
